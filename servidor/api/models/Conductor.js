@@ -22,12 +22,7 @@ module.exports = {
       type: "number"
     },
     licenciaValida:{
-      type:"boolean"
+      type:"number"
     },
-    autos:{
-      collection:"Auto",
-      via:"idConductor"
-    }
   },
-
 };

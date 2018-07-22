@@ -8,25 +8,26 @@
 module.exports = {
 
   attributes: {
-    nombre:{
-      type:"string"
-    },
-    colorUno:{
-      type:"string"},
-    colorDos:{
-      type:"string"
-    },
     chasis:{
       type:"number"
+    },
+    nombre:{
+      type:"string"
     },
     nombreModelo:{
       type:"string"
     },
+    precio:{
+      type:"string"
+    },
+    color:{
+      type:"string"},
     anio:{
       type:"number"
     },
-    idConductor:{
-      model:"Conductor"
-    }
+    conductorId:{
+      type:"number"
+    },
+
   },
 };
